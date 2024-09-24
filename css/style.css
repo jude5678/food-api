@@ -1,0 +1,42 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+     text-align: center;
+     padding-top: 5em;
+     background: rgb(118, 200, 255);
+}
+
+img {
+     height: 400px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
